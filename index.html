@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- need to work on fav icon -->
+    <!-- <link rel="icon" type="image/x-icon" href="../img/sa logo/cm3.png"> -->
+    <title>Greeting Card</title>
+    <style>
+
+    </style>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+    <div class="back1" id="back">
+        <!-- <i class="fa fa-birthday-cake fa-lg ad"></i> -->
+        <img src="./static/img/cake-candles-solid.jpg" alt="" class="ad" height="25px">
+    </div>
+    <div class="card">
+        <div class="back"></div>
+        <div class="front">
+            <div class="cover-shape-large">
+                <div class="shape-diamond"></div>
+                <div class="shape-block"></div>
+            </div>
+            <div class="cover-shape-small">
+                <!-- <div class="shape-diamond"></div> -->
+                <!-- <img src="./static/img/flowers.jpg" alt=""> -->
+                <img src="./static/img/rose_image.jpg" alt="">
+                <!-- <div class="shape-block">
+                    <div class="cake">
+                        <div class="layer layer-bottom"></div>
+                        <div class="layer layer-middle"></div>
+                        <div class="layer layer-top"></div>
+                        <div class="icing"></div>
+                        <div class="drip drip1"></div>
+                        <div class="drip drip2"></div>
+                        <div class="drip drip3"></div>
+                        <div class="candle">
+                            <div class="flame"></div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+
+        <div class="text-container">
+            <p id="head">Thank You for Everything</p>
+            <p style="font-size: 5px; font-family: 'Courier New', Courier, monospace;">
+            <ul>
+                <li>You're one of the kindest people I've met - always positive and never angry!</li>
+                <li>By watching you work, I learned so much (secretly at first!).</li>
+                <li>You've been there for me since day one, explaining things patiently You're a big reason I'm still
+                    here!</li>
+                <li>You broke the stereotype of a strict manager - you're more like a supportive big brother who says
+                    "go for it, and I'll fix it if needed."</li>
+                <li>You encouraged us to explore and never limited us.</li>
+                <li>Your calmness inspires me, and I'll keep working on being more like you.</li>
+                <li>I loved celebrating your birthday! Hopefully we can do it again soon.</li>
+                <li>Thank you for everything</li>
+                <li>Farewell Shreyas - Until Next Time!</li>
+            </ul>
+            </p>
+            <p>Amar Raut🙂</p>
+        </div>
+    </div>
+    <script>
+        let open_landing_page = document.getElementById("back");
+
+        open_landing_page.addEventListener("click", () => {
+            window.open("photos_gallery.html", "_self");
+        });
+    </script>
+</body>
+
+</html>
